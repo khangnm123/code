@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#click{
+    padding: 20px;
+    background-color: blue;
+
+}
+.sub-nav{
+    background-color: aquamarine;
+    width: 20%;
+    display: none;
+}
