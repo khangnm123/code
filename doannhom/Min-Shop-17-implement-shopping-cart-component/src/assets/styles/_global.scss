@@ -1,0 +1,40 @@
+
+:root {
+  --primary: #00CC96;
+  --light-primary: rgba(0, 204, 150, 0.1);
+  --secondary:#2975FF;
+  --light-secondary: rgba(41, 117, 255, 0.1);
+  --yellow-tertiary: #FFC123;
+  --light-yellow-tertiary:rgba(255, 193, 35, 0.1);
+  --pink-tertiary: #FF66A0;
+  --light-pink-tertiary:rgba(255, 102, 160, 0.1);
+  --gray-accent:#F6F7FB;
+  --red-accent:#FF0000;
+  --white-accent:#ffffff;
+  --black-accent: #000000;
+
+  --text-dark: #1A202C;
+  --text-dark-medium:rgba(26, 32, 44, 0.64);
+  --text-dark-light:rgba(26, 32, 44, 0.4);
+  --text-dark-lighter:rgba(26, 32, 44, 0.24);
+
+  --text-light: #F7FAFC;
+
+  --font-size-small: 16px;
+  --font-size-medium: 24px;
+  --font-size-large: 32px;
+  --font-size-xlarge:48px;
+  --font-size-xxlarge:64px
+}
+
+@font-face {
+  font-family: "Montserrat" ;
+  src: url("../fonts/Montserrat-Regular.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat ;
+}
