@@ -1,0 +1,24 @@
+$width-box: 6rem;
+
+
+.MiniProductContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+}
+.miniProductRight{
+    // width: 75%;
+}
+.miniProductLeft{
+    width: $width-box;
+    
+}
+@media screen and (max-width: 576px) {
+    .MiniProductContainer{
+        gap: 1rem;
+    }
+    .miniProductLeft{
+        width: 4.5rem;
+    }
+}

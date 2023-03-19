@@ -1,0 +1,58 @@
+.checkoutBtn{
+    width: 50%;
+}
+.cartTotalContainer{
+    width: 26rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3.5rem;
+    border: 2px solid var(--white-accent);
+    border-radius: 2rem;
+}
+.cartTotalContainer h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.totalBillContent{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.totalBillContent h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+}
+.totalBillContent .total h3{
+    font-weight: bold;
+}
+.cartBtnContainer{
+    height: 4rem;
+}
+.rightCol > h3{
+    text-align: right;
+}
+
+@media screen and (max-width: 576px) {
+    .cartBtnContainer{
+        // margin: 0 auto;
+        height: 3rem;
+        
+    }
+    .totalBillContent{
+        gap: 2rem;
+    }
+    .totalBillContent h3{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .cartTotalContainer h1{
+        font-size: 1.5rem
+    }
+    .cartTotalContainer{
+        width: 18rem;
+        gap: 2.5rem;
+        padding: 1.5rem 0;
+    }
+}

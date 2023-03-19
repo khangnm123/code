@@ -1,0 +1,76 @@
+$default-width-btn: 50%;
+$default-height-btn: 4rem;
+
+$sm-width-btn: 50%;
+$sm-height-btn: 3rem;
+
+
+.ShoppingCartContainer{
+    width: 30rem;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--white-accent);
+}
+.priceBoxRight > h5{
+    color: var(--text-dark);
+    font-weight: 600;
+    font-size: 20px;
+}
+.priceBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+.priceBoxLeft>h5{
+    color: var(--text-dark);
+    font-weight: 600;
+    font-size: 20px;
+}
+.listProduct{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.controlShoppingCart{
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+    //distance between 2 button
+    gap: 1.5rem;
+    
+}
+.btnLeft{
+    width: $default-width-btn;
+    height: $default-height-btn;
+}
+.btnRight{
+    width: $default-width-btn;
+    height: $default-height-btn;
+}
+.fullWidthBtn{
+    margin: 2rem 0 1rem 0;
+    width: 100% !important;
+}
+@media screen and (max-width: 576px) {
+    .btnLeft{
+        width: $sm-width-btn;
+        height: $sm-height-btn;
+    }
+    .btnRight{
+        width: $sm-width-btn;
+        height: $sm-height-btn;
+    }
+    .ShoppingCartContainer{
+        padding: 0.8rem;
+        width: fit-content;
+    }
+    .priceBox{
+        justify-content: unset;
+        gap: 11.5rem;
+    }
+}

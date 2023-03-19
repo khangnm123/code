@@ -1,0 +1,23 @@
+
+.circle {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    border: 2px solid var(--white-accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circleActive{
+    background-color: var(--primary);
+    color: #fff;
+    border: 2px solid var(--primary);
+}
+.smallCircle{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 14px;
+}

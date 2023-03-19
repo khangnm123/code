@@ -1,0 +1,22 @@
+.stepContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 4px;
+}
+
+.line{
+    height: 3px;
+    width: 8rem;
+    background-color: var(--white-accent);
+    border-radius: 2px;
+}
+
+.lineActive{
+    background-color: var(--primary);
+}
+
+.smLine{
+    width: 4rem;
+}
